@@ -1,0 +1,41 @@
+body {
+    background-color: #24353F;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.loginContent , .signinContent{
+    background-color: #24353F;
+}
+.loginContent h1 , .signinContent h1{
+    color: #17A2B8;
+}
+::placeholder {
+    color: #CED4DA !important ;/* Light gray */
+}
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+input {
+    box-shadow: none !important;
+    color: #fff !important;
+    border-color: #CED4DA !important;
+}
+button:hover {
+    color: #fff !important;
+}
+.navbar{
+    box-shadow: 2px 2px 2px 2px #24353F;
+}
+.navbar-brand:hover {
+    text-decoration: none;
+}
+.homeContent {
+    height: 400px;
+}
+.box {
+    padding: 3rem 10rem;
+}
