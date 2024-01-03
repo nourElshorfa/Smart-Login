@@ -79,7 +79,7 @@ function clearForm(){
 }
 
 signinLink.addEventListener("click" , function(){
-    window.location.href = "../index.html"
+    window.location.href = "../home.html"
 })
 
 function validateEmail(){
