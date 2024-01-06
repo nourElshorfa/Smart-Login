@@ -47,5 +47,6 @@ function checkInputEmpty(){
 }
 
 signupLink.addEventListener("click", function () {
-    window.location.href = "../signup/signup.html"
+    window.location.href = "../signup.html"
+    console.log("hello");
 })
